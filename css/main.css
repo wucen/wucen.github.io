@@ -1265,7 +1265,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #1d7d87;
+  background: #be5d25;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2267,7 +2267,7 @@ ul.breadcrumb li + li:last-child {
   }
 }
 .header-inner {
-  background: FloralWhite;
+  background: #fff;
   border-radius: initial;
   box-shadow: initial;
   overflow: hidden;
@@ -2302,13 +2302,13 @@ ul.breadcrumb li + li:last-child {
   }
 }
 .content-wrap {
-  background: FloralWhite;
+  background: #fff;
   border-radius: initial;
   box-shadow: initial;
   box-sizing: border-box;
   float: right;
   padding: 40px;
-  width: 240px;
+  width: calc(100% - 252px);
 }
 @media (max-width: 991px) {
   .content-wrap {
@@ -2318,10 +2318,10 @@ ul.breadcrumb li + li:last-child {
   }
 }
 .sidebar {
-  background: FloralWhite;
+  background: #f5f7f9;
   box-shadow: none;
   float: left;
-  position: absolute;
+  position: static;
   width: 240px;
 }
 @media (max-width: 991px) {
@@ -2333,7 +2333,7 @@ ul.breadcrumb li + li:last-child {
   display: none;
 }
 .footer-inner {
-  padding-left: 0px;
+  padding-left: 260px;
 }
 .back-to-top {
   left: auto;
@@ -2351,55 +2351,13 @@ ul.breadcrumb li + li:last-child {
     width: auto;
   }
 }
-header {
-  width: 75% !important;
-}
-header.post-header {
-  width: auto !important;
-}
-.container .main-inner {
-  width: 75%;
-}
-.content-wrap {
-  width: calc(100% - 260px);
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .header {
-    width: auto !important;
-  }
-}
-@media (max-width: 767px) {
-  .header {
-    width: auto !important;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .container .main-inner {
-    width: auto !important;
-  }
-}
-@media (max-width: 767px) {
-  .container .main-inner {
-    width: auto !important;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .content-wrap {
-    width: 100% !important;
-  }
-}
-@media (max-width: 767px) {
-  .content-wrap {
-    width: 100% !important;
-  }
-}
 .site-brand-container {
   position: relative;
 }
 .site-meta {
-  background: FloralWhite;
+  background: #222;
   color: #fff;
-  padding: 45px 0;
+  padding: 20px 0;
 }
 @media (max-width: 991px) {
   .site-meta {
@@ -2411,7 +2369,7 @@ header.post-header {
   padding: 0;
 }
 .brand:hover {
-  color: DarkOrchid;
+  color: #fff;
 }
 .site-subtitle {
   font-weight: initial;
@@ -2446,7 +2404,7 @@ header.post-header {
 .menu-item-active a,
 .menu .menu-item a:hover,
 .menu .menu-item span.exturl:hover {
-  background: FloralWhite;
+  background: #f5f5f5;
 }
 .menu .menu-item {
   display: block;
